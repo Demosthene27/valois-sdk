@@ -18,9 +18,9 @@ Please read this carefully. With this repository we have opened access to the be
 
 We strictly discourage anyone from using the beta release of the Lisk SDK for any production-based blockchain applications, i.e. a blockchain operating on a real mainnet. Throughout the beta phase, there will be significant changes in the Lisk protocol and implementation, which will eventually bring accessibility and reliability to a level that is feasible for production-based blockchain applications. At this time we only recommend the Lisk SDK for proof-of-concept blockchain applications, i.e. a blockchain operating on a fake testnet.
 
-The only application built using the Lisk SDK currently feasible for production usage is [Lisk Core](https://github.com/liskhq/lisk-core), the client of the Lisk network itself.
+The only application built using the Valois SDK currently feasible for production usage is [Lisk Core](https://github.com/liskhq/lisk-core), the client of the Valois network itself.
 
-Please be advised, although we have stabilised the architecture of SDK, we cannot guarantee blockchains created with the beta release of the Lisk SDK will remain compatible with our planned release candidates.
+Please be advised, although we have stabilised the architecture of SDK, we cannot guarantee blockchains created with the beta release of the Valois SDK will remain compatible with our planned release candidates.
 
 We hope you enjoy building your proof-of-concept blockchain applications using the Lisk SDK, and shall look forward to receiving your feedback and contributions during the beta phase.
 
@@ -44,19 +44,19 @@ Before running Lisk SDK, the following dependencies need to be installed in orde
 
 ### Installation
 
-The installation of Lisk Beta SDK is straightforward and limited to getting a single NPM package, `lisk-sdk`, to your Node.js project:
+The installation of Valois Beta SDK is straightforward and limited to getting a single NPM package, `valois-sdk`, to your Node.js project:
 
 ```
 npm install lisk-sdk@beta
 ```
 
-Lisk SDK is all-in-one package that provides you with tools to create, run and maintain blockchain applications in JavaScript.
+Valois SDK is all-in-one package that provides you with tools to create, run and maintain blockchain applications in JavaScript.
 
 ### Set up new a blockchain application
 
 To start, create the project structure of your blockchain application. There are no special requirements here, you can create the basic Node.js project folder structure with `npm init`.
 
-To create a blockchain application, you need to provide an entry point of your application (like `index.js`) and set-up your network by using the modules of Lisk SDK.
+To create a blockchain application, you need to provide an entry point of your application (like `index.js`) and set-up your network by using the modules of Valois SDK.
 
 It is quite simple to have a working blockchain application, mirroring the configuration of the existing Lisk network. This can be done by copying the following three lines of code to your `index.js`:
 
@@ -128,7 +128,7 @@ app
 
 ## Architecture Overview
 
-The Lisk SDK operates on the NodeJS runtime and consists primarily of an application framework (Lisk Framework), a collection of libraries providing blockchain application functionalities (Lisk Elements), and a powerful command-line tool (Lisk Commander) helping developers to build a blockchain application using Lisk Framework. The diagram below provides a high-level overview of the architecture:
+The Valois SDK operates on the NodeJS runtime and consists primarily of an application framework (Valois Framework), a collection of libraries providing blockchain application functionalities (Valois Elements), and a powerful command-line tool (Valois Commander) helping developers to build a blockchain application using Valois Framework. The diagram below provides a high-level overview of the architecture:
 
 ![Diagram](./docs/assets/diagram_sdk.png)
 
